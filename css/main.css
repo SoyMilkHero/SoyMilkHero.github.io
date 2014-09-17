@@ -36,6 +36,7 @@ logo{
 }
 
 logo h1{
+	font-family: arial;
 	font-size: 30px;
 }
 
@@ -333,6 +334,216 @@ nav a:hover{
 	float: right;
 }
 
+
+/*PRICING CONTENT*/
+
+.pricingcontent{
+	width: 960px;
+	background-color: #fff;
+	border: solid;
+	border-width: 3px;
+	border-color: #bebebe;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 25px;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+}
+
+.pricingcontent h1{
+	font-size: 28px;
+	color: #4b4d4a;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.pricingcontent h2{
+	font-size: 22px;
+	color: #7d807c;
+	font-family: arial;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.pricingcontent h3{
+	color: #525551;
+	font-size: 12px;
+	font-family: arial;
+	margin-top: 15px;
+	width: 570px;
+	font-weight: 200;
+}
+
+.creditcards{
+	float: right;
+	font-size: 14px;
+	font-family: arial;
+	color: #9f9f9f;
+	margin-top: -60px;
+}
+
+.creditcards h4{
+	margin-bottom: 15px;
+}
+
+.pricingtable{
+	padding-left: 25px;
+	margin-top: 50px;
+	background-color: #f3f3f3;
+	border: solid;
+	border-color: #e1e1e1;
+	border-width: 3px;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	font-family: arial;
+ 	padding-top: 25px;
+}
+
+.pricingtable h2{
+	font-size: 12px;
+	color: #5c6458;
+	font-family: arial;
+	font-weight: 200;
+	margin-top: 5px;
+	padding-left: 6px;
+}
+
+.pricingtable span{
+	color: #d15806;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.pricingtable h3{
+	color: #b1b1b1;
+	font-size: 11px;
+	padding-left: 6px;
+}
+
+.pricingtable h4{
+	color: #5c6458;
+	height: 37px;
+	width: 107px;
+	font-size: 12px;
+	background-image: url(../images/buynowbutton.png);
+	margin-left: 6px;
+	margin-top: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+.pricingtable ul{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.pricingtable li{
+	margin-top: 6px;
+}
+
+.pass{
+	margin-left: 20px;
+	list-style-image: url(../images/checkmark.png);
+}
+
+.fail{
+	list-style-image: url(../images/xmark.png);
+	margin-left: 20px;
+}
+
+.pro{
+	width: 215px;
+	float: left;
+	margin: 0;
+}
+
+.pro h1{
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.basic{
+	float: left;
+	width: 215px;
+	margin: 0;
+}
+
+.basic h1{
+	background-image: url(../images/pricinghover.png);
+	background-repeat: no-repeat;
+	background-position: -5px center;
+	color: #fff;
+	height: 45px;
+	width: 189px;
+	padding-left: 5px;
+	padding-top: 10px;
+	overflow: visible;
+}
+
+.basic h3{
+	margin-top: 24px;
+}
+
+.basic h4{
+	margin-top: 21px;
+}
+
+.adv{
+	float: left;
+	margin: 0;
+	width: 215px;
+}
+
+.adv h1{
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+
+.nitro{
+	float: left;
+	width: 215px;
+	margin: 0;
+}
+
+.nitro h1{
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.pricingcontent2 h1{
+	color: #949494;
+	font-size: 12px;
+	font-style: italic;
+	width: 680px;
+	margin-top: 25px;
+}
+
+.pricingcontent2 h2{
+	margin-top: 40px;
+	font-size: 14px;
+	color: #4b4d4a;
+	font-weight: bold;
+}
+
+.pricingcontent2 span{
+	color: #d05606;
+}
+
+.pricingcontent2 p{
+	width: 600px;
+	font-size: 12px;
+	font-weight: 200;
+	color: #525551;
+	margin-top: 20px;
+}
+
+.para{
+	margin-bottom: 50px;
+}
 
 /*FOOTER*/
 
