@@ -8,6 +8,10 @@ html, body{
 	background-color: #e3e3e2;
 }
 
+p{
+	line-height: 140%;
+}
+
 
 /*HEADER/NAVIGATION*/
 
@@ -466,6 +470,136 @@ nav a:hover{
 	margin-top: 20px;
 	font-size: 12px;
 	color: #4b4d4a;
+	line-height: 140%;
+}
+
+
+/*BLOG CONTENT*/
+
+.blogwrapper{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	margin-top: 50px;
+ 	padding: 15px;
+}
+
+.blogsidebar{
+	float: left;
+	width: 210px;
+	background-color: #f0f0f0;
+}
+
+.blognav{
+	font-size: 14px;
+	font-family: arial;
+	font-weight: 200;
+	color: #515450;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+
+.blogsidebar h1{
+	font-size: 22px;
+	color: #838382;
+	font-family: Open sans Condensed;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blogsidebar ul{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.blognav li{
+	margin-top: 32px;
+	margin-bottom: 20px;
+}
+
+.blogsidebarbottom{
+	margin-top: 25px;
+	background-color: #fff;
+	font-family: arial;
+}
+
+.blogsidebarbottom h2{
+	color: #5e605c;
+	font-size: 16px;
+}
+
+.blogsidebarbottom h3{
+	font-size: 12px;
+	color: #5e605c;
+	font-weight: 100;
+	font-style: underline;
+}
+
+.blogh3{
+	margin-top: 15px;
+}
+
+.blogh3again{
+	margin-bottom: 6px;
+}
+
+.blogsidebarimages{
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.blogsidebarbottom h4{
+	font-size:10px;
+	color: #5e605c;
+	width: 110px;
+	float: right;
+	margin-right: 85px;
+}
+
+.blogcontent{
+	font-family: arial;
+	float: right;
+	width: 660px;
+}
+
+.blogcontent h1{
+	color: #4b4d4a;
+	font-size: 28px;
+	margin-bottom: 6px;
+}
+
+.blogcontent h2{
+	margin-bottom: 35px;
+	font-size: 11px;
+	color: #545653;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.spanheader{
+	color: #dd6516;
+}
+
+.blogcontent p{
+	font-size: 12px;
+	color: #4b4d4a;
+	font-weight: 200;
+	margin-bottom: 40px;
+	line-height: 140%;
+}
+
+.blogcontent hr{
+	margin-bottom: 40px;
+}
+
+.readmore{
+	color: #dd6516;
 }
 
 /*PRICING CONTENT*/
