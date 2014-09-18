@@ -181,6 +181,7 @@ nav a:hover{
 	width: 170px;
 	height: 42px;
 	background-image:url(../images/button_1.png);
+	background-repeat: no-repeat;
 	padding-top: 13px;
 	padding-left: 27px;
 	margin-right: 20px;
@@ -191,6 +192,7 @@ nav a:hover{
 	width: 170px;
 	height: 42px;
 	background-image: url(../images/button_2.png);
+	background-repeat: no-repeat;
 	padding-top: 13px;
 	padding-left: 9px;
 }
@@ -334,15 +336,143 @@ nav a:hover{
 	float: right;
 }
 
+/*ABOUT CONTENT*/
+
+.aboutwrapper{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	margin-top: 50px;
+ 	padding: 15px;
+}
+
+.aboutsidebar{
+	float: left;
+	width: 210px;
+	background-color: #f0f0f0;
+}
+
+.aboutsidebar h1{
+	font-size: 22px;
+	color: #838382;
+	font-family: Open sans Condensed;
+	margin-top: 10px;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nonwhitebar{
+	margin-bottom: 25px;
+}
+
+.aboutsidebar h2{
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: #db8146;
+	text-shadow: 2px 2px #b9b9b9;
+	margin-top: 15px;
+}
+
+.aboutnav{
+	font-size: 14px;
+	font-family: arial;
+	font-weight: 200;
+	color: #515450;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+
+.overview{
+}
+
+.aboutsidebar ul{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.aboutnav li{
+	margin-top: 32px;
+	margin-bottom: 20px;
+}
+
+.aboutlist1{
+	font-size: 12px;
+	color: #4b4d4a;
+	font-family: arial;
+	font-weight: 200;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+
+.aboutlist2{
+	font-size: 12px;
+	color: #4b4d4a;
+	font-family: arial;
+	font-weight: 200;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.aboutlist1 li{
+	margin-bottom: 5px;
+}
+
+.aboutlist2 li{
+	margin-bottom: 5px;
+}
+
+.whitebar{
+	margin-top: 25px;
+	background-color: #fff;
+	height: 200px;
+}
+
+.aboutcontent{
+	font-family: arial;
+	float: right;
+	width: 660px;
+}
+
+.aboutcontent h1{
+	margin-top: 10px;
+	font-size: 28px;
+	color: #4b4d4a;
+	font-weight: bold;
+}
+
+.aboutcontent h2{
+	margin-top: 6px;
+	font-size: 22px;
+	color: #7d807c;
+	font-weight: 200;
+}
+
+.aboutcontent h3{
+	margin-top: 25px;
+	color: #d56b26;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.aboutcontent p{
+	width: 600px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #4b4d4a;
+}
 
 /*PRICING CONTENT*/
 
 .pricingcontent{
 	width: 960px;
 	background-color: #fff;
-	border: solid;
-	border-width: 3px;
-	border-color: #bebebe;
 	margin: 0 auto;
 	margin-top: 40px;
 	padding: 25px;
