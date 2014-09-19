@@ -602,6 +602,39 @@ nav a:hover{
 	color: #dd6516;
 }
 
+
+/*CONTACT CONTENT*/
+
+.contactwrapper{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	margin-top: 50px;
+ 	padding: 15px;
+}
+
+.contactsidebar{
+	float: left;
+	width: 210px;
+	background-color: #f0f0f0;
+}
+
+.contactcontent{
+	font-family: arial;
+	float: right;
+	width: 660px;
+}
+
+.contactcontent{
+	font-family: arial;
+	float: right;
+	width: 660px;
+}
+
+
 /*PRICING CONTENT*/
 
 .pricingcontent{
