@@ -8,7 +8,7 @@ html, body{
 	background-color: #fff;
 	background-image: url(../images/backgroundgradient.jpg);
 	background-position: top center;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 }
 
 html{
@@ -973,6 +973,8 @@ input.submitbutton{
 .pricingtable{
 	padding-left: 25px;
 	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #f3f3f3;
 	border: solid;
 	border-color: #e1e1e1;
