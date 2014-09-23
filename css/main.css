@@ -51,11 +51,18 @@ header{
 }
 
 .logo h1{
+	color: transparent;
 	font-family: arial;
 	font-size: 30px;
+	font-family: "fertigo-pro";
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 }
 
 .logo span{
+	font-family: arial;
+	-webkit-text-stroke-width: none;
+	-webkit-text-stroke-color: black;
 	font-size: 32px;
 	color: #eee;
 	width: 180px;
@@ -64,10 +71,10 @@ header{
 }
 
 header img{
-	margin: 0;
 	float: right;
-	position: relative;
-	margin-top: -22px;
+	position: absolute;
+	top: 22px;
+	left: 1128px;
 }
 
 header a{
@@ -81,21 +88,28 @@ nav{
 }
 
 nav li{
+	height: 27px;
+	font-size: 12px;
 	margin-right: 21px;
 	display: inline-block;
+	padding-top: 10px;
 }
 
 nav a:hover{
+	height: 27px;
 	display: block;
+	color: #7b3500;
 	background-image: url(../images/navhover_03.png);
-	background-position: center center;
+	background-position: center top;
 	background-repeat: no-repeat;
 }
 
 .account{
-	margin-top: -12px;
-	position: relative;
+	left: 1128px;
+	top: 85px;
+	position: absolute;
 	float: right;
+	margin-right: 5px;
 }
 
 .account li{
@@ -104,10 +118,20 @@ nav a:hover{
 
 .account3{
 	width: 85px;
+	margin-left: 3px;
 	height: 27px;
 	background-image: url(../images/accountbutton.png);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center top;
+	padding-top: 6px;
+	padding-left: 20px;
+	color: #fff;
+	font-family: Open Sans Condensed;
+
+}
+
+.account3 a{
+	color: #fff;
 }
 
 .headerbottom{
